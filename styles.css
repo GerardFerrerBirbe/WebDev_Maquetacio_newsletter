@@ -1,0 +1,164 @@
+html, body {
+    width: 100%;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 10px 0;
+}
+
+a {
+    color: rgb(238, 203, 46);
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 203, 46);
+}
+
+.menu img {
+    float: left;
+    width: auto;
+    height: 50px;
+}
+
+.menu ul {  
+    float: right;
+    width: 400px;
+    text-align: end;
+}
+
+li {
+    display: inline;
+}
+
+.menu ul li {
+    padding: 0 30px;
+}
+
+section.banner {
+    margin: 10px 0;
+    background-image: url("img/foto-grande.jpg");
+    height: 300px;
+}
+
+div.banner {
+    width: 600px;
+}
+
+div.banner h2 {
+    width: 250px;   
+    height: 150px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    padding: 40px 10px 20px 10px;
+}
+
+button {
+    background-color:rgb(238, 203, 46);
+    font-weight: bold;    
+    border-radius: 8px;
+    border-width: 0;
+    padding: 10px 50px;
+}
+
+div.banner button {
+    margin-left: 45px;
+}
+
+.articles {
+    margin: 30px 0 10px 0;
+}
+
+.articles .article {
+    margin: 10px auto;
+    height: 160px;
+}
+
+.article img {
+    margin: auto 0;
+    width: 280px;
+}
+
+.article div {
+    margin: 0;
+}
+
+.article div h4 {
+    margin: 0;
+}
+
+.article div p {
+    color: slategray;
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.article div button {
+    margin: 0 auto;
+}
+
+.article-photo-left img {
+    float: left;
+    width: 280px;
+}
+
+.article-photo-left div {
+    float: right;
+    width: 300px;
+}
+
+.article-no-photo {
+    clear: both;
+}
+
+.article-no-photo h4 {
+    text-align: center;
+}
+
+.article-photo-right img {
+    float: right;
+    width: 280px;
+}
+
+.article-photo-right div {
+    float: left;
+    width: 300px;
+}
+
+footer {
+    clear: both;
+}
+
+.social {
+    background-color:rgb(238, 203, 46);
+    width: 100%;
+}
+
+.social ul {
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.social ul li {
+    margin: 0 5px;
+}
+
+.social ul li img{
+    width: 40px; 
+}
+
+footer p {
+    text-align: center;
+    margin-top: 15px;
+}
+
